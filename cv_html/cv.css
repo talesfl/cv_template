@@ -1,0 +1,83 @@
+html, body {
+	max-width: 900px;	
+	font-size: 10pt;
+	margin: 0 auto;
+}
+
+aside {
+	padding: 0 10px;
+	float: left;
+	margin: 0 30px;
+}
+
+header {
+	width: 900px;
+}
+
+header>h1.section_header { 
+	text-align: center;
+	margin: 0 0 10px 0;
+}
+
+.section_header {
+	margin-top: 0;
+	margin-bottom: 0;
+	border-bottom: 1px solid black;
+}
+
+ul {
+	padding-left: 8px;
+	border-left: 2px solid black;
+	line-height: 1.3;
+	background-color: #F5F5F5;
+}
+
+ul.data > li {
+	width: 360px;
+}
+
+li {
+	list-style-type: none;
+}
+	
+.contact_info_icon {
+	float: left;
+	width: 15px;
+	text-align: left;
+}
+
+.contact_info_value {
+	display: inline-block;
+}
+
+.skill {
+	width: 80px;
+	text-align: right;
+	float:left;
+	margin-right: 5px;
+}
+
+.prog_bar {
+	display: inline-block;
+}
+
+progress::-moz-progress-bar { 
+	background-color: #808080;
+}
+
+.skill_list {
+	line-height: 1.5;
+}
+
+.hidden {
+	display: none;
+
+}
+
+@media print{
+	ul, 
+	p#objetivo,
+	progress::-moz-progress-bar { 
+		color-adjust: exact;
+	}
+}
